@@ -1,0 +1,16 @@
+C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\bin\Debug\netcoreapp2.0\Views\Home\code-snippet.html
+C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\bin\Debug\netcoreapp2.0\Views\Home\configurer.html
+C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\bin\Debug\netcoreapp2.0\Views\Home\Weather.cshtml
+C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\bin\Debug\netcoreapp2.0\Data\countries.json
+C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\bin\Debug\netcoreapp2.0\Data\geo.json
+C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\bin\Debug\netcoreapp2.0\SmartWeb.deps.json
+C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\bin\Debug\netcoreapp2.0\SmartWeb.runtimeconfig.json
+C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\bin\Debug\netcoreapp2.0\SmartWeb.runtimeconfig.dev.json
+C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\bin\Debug\netcoreapp2.0\SmartWeb.dll
+C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\bin\Debug\netcoreapp2.0\SmartWeb.pdb
+C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\obj\Debug\netcoreapp2.0\SmartWeb.csprojResolveAssemblyReference.cache
+C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\obj\Debug\netcoreapp2.0\SmartWeb.csproj.CoreCompileInputs.cache
+C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\obj\Debug\netcoreapp2.0\SmartWeb.AssemblyInfoInputs.cache
+C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\obj\Debug\netcoreapp2.0\SmartWeb.AssemblyInfo.cs
+C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\obj\Debug\netcoreapp2.0\SmartWeb.dll
+C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\obj\Debug\netcoreapp2.0\SmartWeb.pdb

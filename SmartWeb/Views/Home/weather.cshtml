@@ -1,0 +1,48 @@
+﻿@model WeatherViewModel
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Weather</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/main.css">
+
+  </head>
+  <body class="vh100 with-bg shaded" style="background: url('/img/header01.jpg')">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 pt50">
+          <h4>@Model.Data.First().Date</h4>
+          <h2>@Model.City</h2>
+          <h4>@Model.Data.First().Main</h4>
+        </div>
+        <div class="col-sm-6 pt50 text-right">
+          <h1 style="font-size: 96px;" class="degrees">@Model.Data.First().Temperature&deg;C</h1>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="absolute bottom left">
+      <div class="container-fluid">
+        <div class="row">
+            @foreach (var item in Model.Data)
+            {
+                <div class="col-sm-2 bottom-items-weather text-muted">
+                    <h3 class="degrees">@item.Date</h3>
+                    <h3 class="degrees">@item.Temperature&deg;C</h3>
+                    <h3 class="degrees">@item.Main</h3>
+                </div>
+}
+        </div>
+      </div>
+    </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>

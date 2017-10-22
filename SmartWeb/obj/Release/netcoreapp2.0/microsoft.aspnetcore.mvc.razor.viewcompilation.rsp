@@ -1,0 +1,15 @@
+C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=SmartWeb
+--content-root=C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb
+--file=C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\Views\Home\Calculator.cshtml
+--file=C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\Views\Home\Download.cshtml
+--file=C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\Views\Home\First.cshtml
+--file=C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\Views\Home\Index.cshtml
+--file=C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\Views\Home\SkyScanner.cshtml
+--file=C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\Views\Home\Weather.cshtml
+--file=C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\Views\Shared\Error.cshtml
+--file=C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\Views\Shared\_Layout.cshtml
+--file=C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\Views\_ViewImports.cshtml
+--file=C:\Users\gxsha\OneDrive\Documents\Visual Studio 2017\Projects\SmartWeb\SmartWeb\Views\_ViewStart.cshtml

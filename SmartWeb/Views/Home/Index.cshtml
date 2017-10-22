@@ -1,0 +1,171 @@
+﻿@model SmartWeb.Models.InputViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sliding Header Grid Layout</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/sliding-header.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+    <div id="container" class="outer-container">
+        <header class="intro">
+            <img class="intro-image" src="~/img/header01.jpg" alt="Iceland galcier" />
+            <div class="middle-content">
+                <div class="container">
+                    <Form role="form" asp-action="Index" class="main-form">
+                        <div class="row">
+                            <div class="col-xs-6 col-xs-offset-3">
+                                <div class="input-group input-group-lg">
+                                    <input type="text" asp-for="Text" placeholder="What's your question?" class="form-control" />
+                                    <div class="input-group-btn">
+                                        <button type="submit" class="btn">Search</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </Form>
+                </div>
+            </div>
+
+            <div class="intro-content">
+                <div class="container text-center">
+                    <div class="intro-subtitle">
+                        
+                        <button class="trigger hidden">
+                            <svg width="100%" height="100%" viewBox="0 0 60 60" preserveAspectRatio="none">
+                                <g class="icon icon-grid">
+                                    <rect x="32.5" y="5.5" width="22" height="22" />
+                                    <rect x="4.5" y="5.5" width="22" height="22" />
+                                    <rect x="32.5" y="33.5" width="22" height="22" />
+                                    <rect x="4.5" y="33.5" width="22" height="22" />
+                                </g>
+                                <g class="icon icon-cross">
+                                    <line x1="4.5" y1="55.5" x2="54.953" y2="5.046" />
+                                    <line x1="54.953" y1="55.5" x2="4.5" y2="5.047" />
+                                </g>
+                            </svg>
+                            <span>View content</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+        </header>
+     
+        <section class="items-wrap with-bg shaded hidden" style="background: url('../images/ny.jpg')">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 pt50">
+                        <h4>Wednesday, 14th of June</h4>
+                        <h2>New York</h2>
+                        <h4>3 km/h</h4>
+                    </div>
+                    <div class="col-sm-6 pt50 text-right">
+                        <h1 style="font-size: 96px;" class="degrees"><i class="icon icon-rainy"></i> 21&deg;C</h1>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="absolute bottom left">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-2 bottom-items-weather text-muted active">
+                            <h2 class="mt10"><i class="icon icon-sun"></i></h2>
+                            <h3 class="degrees m0">Thursday</h3>
+                            <h3 class="degrees mt10">21&deg;C</h3>
+                        </div>
+                        <div class="col-sm-2 bottom-items-weather text-muted">
+                            <h3 class="m0"><i class="icon icon-sun"></i></h3>
+                            <h4 class="degrees">Friday</h4>
+                            <h4 class="m0 degrees">21&deg;C</h4>
+                        </div>
+                        <div class="col-sm-2 bottom-items-weather text-muted">
+                            <h3 class="m0"><i class="icon icon-sun"></i></h3>
+                            <h4 class="degrees">Friday</h4>
+                            <h4 class="m0 degrees">21&deg;C</h4>
+                        </div>
+                        <div class="col-sm-2 bottom-items-weather text-muted">
+                            <h3 class="m0"><i class="icon icon-sun"></i></h3>
+                            <h4 class="degrees">Friday</h4>
+                            <h4 class="m0 degrees">21&deg;C</h4>
+                        </div>
+                        <div class="col-sm-2 bottom-items-weather text-muted">
+                            <h3 class="m0"><i class="icon icon-sun"></i></h3>
+                            <h4 class="degrees">Friday</h4>
+                            <h4 class="m0 degrees">21&deg;C</h4>
+                        </div>
+                        <div class="col-sm-2 bottom-items-weather text-muted">
+                            <h3 class="m0"><i class="icon icon-sun"></i></h3>
+                            <h4 class="degrees">Friday</h4>
+                            <h4 class="m0 degrees">21&deg;C</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="items-wrap with-bg shaded hidden">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 pt50">
+                        <h4 class="text-muted">Calculator</h4>
+                        <h2>2 + 2</h2>
+                        <h1 style="font-size: 96px;" class="degrees">= 4 </h1>
+                    </div>
+                    <div class="col-sm-6 pt50 text-right">
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="items-wrap with-bg shaded hidden">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 pt50">
+                        <h4 class="text-muted pt50">Sublime Text</h4>
+                        <h2>Your download is ready</h2>
+                        <div class="btn btn-default mt20">Download</div>
+                    </div>
+                    <div class="col-sm-6 pt50 text-right">
+                        <span class="big-dl-icon">
+                            <i class="icon-cloud-download icons"></i>
+                        </span>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="items-wrap with-bg shaded">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 pt50">
+                        <h4 class="text-muted pt50">Random advice</h4>
+                        <h2>Turn jeans inside out when washing them to help preserve their colour.</h2>
+                    </div>
+                    <div class="col-sm-6 pt50 text-right">
+                        <span class="big-dl-icon">
+                            <i class="icon-cloud-download icons"></i>
+                        </span>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+    </div>
+   
+</body>
